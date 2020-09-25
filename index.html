@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
@@ -13,76 +14,72 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
-  <title>Coffee-Shop</title>
+    <title>Coffee-Shop</title>
   </head>
   <body>
 
 
 
-    <nav class="navbar-center navbar-dark bg-dark">
-      <div class="row justify-content-center">
-        <div class="fontheader">
-
-
-        <a class="navbar-brand" href="#">
-        <img src="images/coffeecup.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        Coffee Shop
-        </a>
-        </div>
-     </div>
-   </nav>
 
 
 
-
-
+<!-- HEADER -->
 
    <header>
-     <div class="overlay"></div>
-      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-     <source src="images/coffee.mp4" type="video/mp4">
-     </video>
-     <div class="container h-100">
-       <div class="d-flex text-center h-100">
-       <div class="headertext">
-         <h1 class="coffeeshoph1">Coffee Shop</h1>
-         <small>Saint-Raphaël</small>
-         <div class="buttoncenter">
-           <button type="button" class="btn btn-light">Découvrez</button>
 
-         </div>
-       </div>
+     <nav class="navbar fixed-top navbar-dark bg-dark">
+       <a class="navbar-brand mx-auto" href="#"><img class="d-inline-block align-top" src="images/coffeecup.svg" alt="" style="width: 25px; height: 25px">Coffee Shop </a>
+
+     </nav>
+
+     <div class="headervideo">
 
 
-     </div>
-    </div>
+       <div class="overlay"></div>
+          <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="images/coffee.mp4" type="video/mp4">
+          </video>
+        <div class="container h-100">
+          <div class="d-flex text-center h-100">
+            <div class="headertext">
+              <h1 class="coffeeshoph1">Coffee Shop</h1>
+              <small>Saint-Raphaël</small>
+              <div class="buttoncenter">
+                <button type="button" class="btn btn-light">Découvrez</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
   </header>
+
+
   <br> <br>
 
 
+<!-- NOTRE PROMESSE -->
 
 
   <div class="centerh3">
-    <h3> Notre promesse </h3>
-    <img id="graincoffee" src="images/coffee.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    <h1> Notre promesse </h1>
+    <img id="graincoffee" src="images/coffee.svg" width="40" height="40" class="d-inline-block align-top" alt="">
 
   </div>
 
   <br> <br> <br>
-<div class="container">
 
+  <div class="container">
+    <div class="card-deck ">
 
-  <div class="card-deck">
   <div class="card">
-    <img class="card-img-top" src="images/restaurant.jpg" alt="Card image cap">
+      <img class="card-img-top" src="images/restaurant.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title text-center">Le vrai goût</h5>
-      <p class="card-text text-center">Notre café est torréfié dans nos locaux, ce qui assure un suivi qualité irréprochable.</p>
+        <h5 class="card-title text-center">Le vrai goût</h5>
+        <p class="card-text text-center">Notre café est torréfié dans nos locaux, ce qui assure un suivi qualité irréprochable.</p>
 
     </div>
   </div>
+
   <div class="card">
     <img class="card-img-top" src="images/restaurant2.jpg" alt="Card image cap">
     <div class="card-body">
@@ -102,45 +99,128 @@
 </div>
 </div>
 
-<br> <br> <br> <br>
+<br> <br>
+
+
+<!-- PICTURE DU JOUR -->
+
+  <section class="header1 cid-qyvcqB36eR" id="header1-0" data-rv-view="761">
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<br> <br>
+
+<!-- TESTIMONALS -->
 
 <section class="testimonials">
 
+  <div class="container">
+    <h1 class="text-center"> Testimonials</h1>
+    <h6 class="text-center">C'est vous qui en parlez le mieux</h6>
+    <br>
+    <div class="row">
+      <div id="quoteblock" class="col-md-4 text-center">
+        <div class="profile">
+          <img class="user" src="images/face1.png" alt="">
+          <blockquote> Un grand merci à Florian pour son accueil chaleureux, le café est excellent. </blockquote>
+          <h3>Emilie</h3>
+        </div>
+
+  </div>
+
+  <div id="quoteblock" class="col-md-4 text-center">
+    <div class="profile">
+      <img class="user" src="images/face2.png" alt="">
+      <blockquote> C'est devenu le repère de mes collègues et moi, c'est cool d'allez coder là-bas.</blockquote>
+      <h3>Xavier</h3>
+    </div>
+
+ </div>
+  <div id="quoteblock" class="col-md-4 text-center">
+    <div class="profile">
+      <img class="user" src="images/face3.png" alt="">
+      <blockquote> Tout est mis en oeuvre pour que notre venu soit une vrai expérience de dégustation. </blockquote>
+      <h3>Emma</h3>
+    </div>
+
+  </div>
+
+  </div>
+    </div>
+  </section>
+
+
+<h1 class="text-center"> Vous venez ?</h1>
+<h6 class="text-center">Votre expresso vous attend</h6>
+<br> <br>
+
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 footer-info">
+          <h3>Coffee Shop</h3>
+          <p> Nous sommes ouverts 7j/7 de 7h à 16h sans interruption. <br> Venez goûter le vrai arôme.</p>
+
+        </div>
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Liens</h4>
+          <ul>
+            <li> <a href="#">Notre fournisseur</a></li>
+            <li> <a href="#">Notre usine</a></li>
+            <li> <a href="#">Nos engagements</a></li>
+
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Contactez-nous</h4>
+          <p>24 Rue de l'Anglais <br>
+          83700 Saint-Raphaël <br>
+          <strong>Téléphone: </strong> <a href="tel:0607080910"> 0607080910
+          </a> <br>
+          <strong>Email: </strong> <a href="mailto:accueil@coffeeshop.fr">accueil@coffeeshop.fr</a>
+          </p>
+          <div class="social-links">
+
+            <a href="#" class="twitter"> <i class="fa fa-facebook"></i></a>
+            <a href="#" class="twitter"> <i class="fa fa-instagram"></i></a>
+            <a href="#" class="twitter"> <i class="fa fa-google-plus"></i></a>
+            <a href="#" class="twitter"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-newsletter">
+          <h4>Notre Newsletter</h4>
+          <p>Soyez le premier au courant de nos offres exclusives</p>
+          <form class="" method="post">
+            <input type="email" name="email" value="">
+            <input type="submit" name="" value="Subscribe">
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
 <div class="container">
-  <h1 class="text-center">Testimonials</h1>
-  <p class="text-center">C'est vous qui en parlez le mieux</p>
-<div class="row">
-  <div class="col-md-4 text-center">
-<div class="profile">
-<img class="user" src="images/face1.png" alt="">
-<blockquote> Un grand merci à Florian pour son accueil chaleureux, le café est excellent. </blockquote>
-<h3>Emilie</h3>
-</div>
-
+  <div class="copyright">
+    &copy; Copyright <strong>Coffee Shop</strong>. Tout droits réservés.
   </div>
-
-  <div class="col-md-4 text-center">
-<div class="profile">
-<img class="user" src="images/face2.png" alt="">
-<blockquote> C'est devenu le repère de mes collègues et moi, c'est cool d'allez coder là-bas </blockquote>
-<h3>Xavier</h3>
+ <div class="credits">
+   Designed in California. Assembled in Saint-Raphaël.
+ </div>
 </div>
 
-  </div>
-  <div class="col-md-4 text-center">
-<div class="profile">
-<img class="user" src="images/face3.png" alt="">
-<blockquote> Tout est mis en oeuvre pour que notre venu soit une vrai expérience de dégustation. J'ADORE. </blockquote>
-<h3>Emma</h3>
-</div>
-
-  </div>
-
-</div>
-</div>
-</section>
-
-
+</footer>
 
 
 
