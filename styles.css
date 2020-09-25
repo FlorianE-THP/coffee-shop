@@ -46,7 +46,7 @@
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg")
+    background: url("https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260")
       black no-repeat center center scroll;
   }
   .headervideo video {
@@ -117,6 +117,10 @@ h3 {
   justify-content: center;
 }
 
+.centerh3 h1 {
+  font-size: 35px;
+}
+
 #graincoffee {
   margin-left: 7px;
 }
@@ -135,7 +139,7 @@ h3 {
 
 section {
   background-position: 20% 20%;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 }
 
@@ -146,7 +150,7 @@ section {
 
 h1 {
   font-family: "Comfortaa", cursive;
-  font-size: 10px;
+  font-size: 9px;
 }
 
 h6 {
